@@ -122,13 +122,17 @@ html5을 명시적으로 선언하겠습니다.
 <html lang="en">
 html tag시작 주 언어는 영어로 쓸께요
 head 문서의 정보를 담고 있습니다.
-문서의 이름,성격 같은 거라고 생각하면 이해하기 편하실거에요 
+문서의 이름,성격 같은 거라고 생각하면 이해하기 편하실거에요
 눈에 실질적으로 보이지는 않는데!
 
 head안에 meta tag속성 charset utf-8은 unicode 모든 문자를 지원하는 포맷으로 작성하겠다.
 
 meta name="viewport" 이 구문은 viewport width는 디바이스 width, 처음 비율은 1.0으로 가져가겠다.
 
+meta http-equiv="X-UA-Compatible"
+IE=edge 사용자가 사용하고 있는 가장 최신 버전 기준으로 렌더링 하겠다는 의미입니다.
+IE=7; IE=8; IE=9; IE=10; IE=edge
+유독 ie만 버전별로 이렇게 있는 이유는 그 만큼 버전별로 호환되는 부분이 달라서 인 것 같은데 자세한 사항은 좀 더 알아봐야겠습니다.
 http-equiv
 <head>
     <meta charset="UTF-8">
