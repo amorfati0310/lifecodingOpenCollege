@@ -3,6 +3,11 @@
 > 문서
 
 * [html개념](http://poiemaweb.com/)
+* [html_style_guide](https://github.com/techhtml/html-best-practices)
+* [udaicty_style_guide](https://udacity.github.io/frontend-nanodegree-styleguide/)
+
+> 퀴즈
+
 * [soloLearn](https://www.sololearn.com/Course/HTML/)
 * [codeCademy](https://www.codecademy.com/courses/learn-html-elements/lessons/intro-to-html/exercises/intro?action=lesson_resume&course_redirect=learn-html)
 
