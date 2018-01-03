@@ -18,9 +18,9 @@ Web을 구성하는 3가지 언어
  1. CSS
  1. JavaScript
 
-HTML은 컨텐츠
-CSS는 스타일 및 레이아웃 및 애니메이션
-JS는 사용자 interaction에 따른 변화 / 애니메이션/ 동적 처리
+HTML은 컨텐츠</br>
+CSS는 스타일 및 레이아웃 및 애니메이션</br>
+JS는 사용자 interaction에 따른 변화 / 애니메이션/ 동적 처리</br>
 애니매이션은 css로 처리하는 것이 더 빠릅니다 ~:D
 GPU가 연산 처리가 훨씬 빠른것 처럼 스타일 관장하는 CSS에서 처리 하는 것이 더 좋다 정도로 알아두시고 자세한 사항은
 [요기](https://www.html5rocks.com/ko/tutorials/speed/high-performance-animations/)
@@ -28,22 +28,22 @@ GPU가 연산 처리가 훨씬 빠른것 처럼 스타일 관장하는 CSS에서
 
 > 코딩과 HTML
 
-코드 , 소스 언어 -> 어플리케이션 ,앱, 프로그램, 웹페이지 웹사이트
-웹은 퍼블릭 도메인 !
-누구나 접근 가능 , 그래서 지금 처럼 가치 있지 않나
+코드 , 소스 언어 -> 어플리케이션 ,앱, 프로그램, 웹페이지 웹사이트</br>
+웹은 퍼블릭 도메인 !</br>
+누구나 접근 가능 , 그래서 지금 처럼 가치 있지 않나</br>
 
 > HTML 코딩 실습 환경 준비~
 
-브라우저 -> 크롬, ... 크롬을 사용합시다!
-텍스트 에디터 -> 소스 코드 작성
+브라우저 -> 크롬, ... 크롬을 사용합시다!</br>
+텍스트 에디터 -> 소스 코드 작성</br>
 (아톰, Vscode, Webstorm, Braket, SublimeText ...)
 이고잉님 수업에서는 아톰을 쓰지만 , 다양한 툴을 한 번 접해보기 위해서
-오프라인 수업에서는 요.대.세인 에디터 VsCode를 다뤄봅시다 
+오프라인 수업에서는 요.대.세인 에디터 VsCode를 다뤄봅시다
 
 [VSCode](https://code.visualstudio.com/)
 [VSCode_Setting](VSCodeSetting.md)
 
-.html 확장자 -> 브라우저가 html문서를 해석할 수 있는 포맷!
+.html 확장자 -> 브라우저가 html문서를 해석할 수 있는 포맷!</br>
 
 텍스트 에디터에 아무텍스트나 입력해보고 저장하고 브라우저로 열어봅시다 예시```
 hi there!```
@@ -61,9 +61,9 @@ example)2018년 목표</br>
 쉬운것이 가장 중요하다. </br>
 개발자도구, 소스보기 [W3C_(월드와이드웹_컨소시옴_페이지](https://www.w3.org/)</br>
 구조파악 or
-가져와서 뭔지 텍스트에디터에다가 붙여놓고 열어보기:D
+가져와서 뭔지 텍스트에디터에다가 붙여놓고 열어보기:D</br>
 그리고 모르는 태그 검색해서 사용법을 알아봅시다</br>
-수업에서는 heading
+수업에서는 heading을 알아봤습니다.
 
 > 통계로 기반한 학습
 
@@ -72,7 +72,7 @@ example)2018년 목표</br>
 숫자기호나 +,-를 아는 것 처럼 이런것들!!!
 ```
 html,head,body,meta,title 등은 늘 쓰이는 부분이니까
-a,div,link,script,img,p,span,ul,li,form,input,style 
+a,div,link,script,img,p,span,ul,li,form,input,style
 그리고 html5에서 semantic tag
 <header>, <footer>, <article>, <section>, <nav>, <main>, <aside>
 등을 먼저 알아봅시다.
@@ -86,8 +86,8 @@ a,div,link,script,img,p,span,ul,li,form,input,style
 <h3></h3>
 <strong><span style="font-size:22px;">coding</span></strong>
 ```
-접근성, SEO관점으로 모두 의미에 맞는 태그 사용하는 것이 중요!
-물론 자기 만족을 위해서도지만, 남들에게 보여주기 위해 작성하는데 시멘틱한 태그를 안 지켜서, 100Page뒤에 있다고 생각해보자... 절대 노출될 수 없을 것이다
+접근성, SEO관점으로 모두 의미에 맞는 태그 사용하는 것이 중요!</br>
+물론 자기 만족을 위해서도지만, 남들에게 보여주기 위해 작성하는데 시멘틱한 태그를 안 지켜서, 100Page뒤에 있다고 생각해보자...</br> 절대 노출될 수 없을 것이다
 
 > 최후의 문법과 속성
 
@@ -141,6 +141,7 @@ http-equiv
     <title>Document</title>
 </head>
 <body>
+    body에는 보여줄 영역을 시멘틱하게 각 tag사용에 알맞게 표시합니다.
 </body>
 </html>
 
@@ -174,15 +175,14 @@ title은 툴팁으로 나타내는 text를 의미합니다.
 Udacity 
 인프런 
 
-> 웹의 역사 
-인터넷과 웹은 다른 개념 
-인터넷은 전체를 연결하는 연결망 
-웹은 앱서비스나 다른 통신망이 들어가는 모든 서비스들을 인터넷이라고 볼 수 있습니다.
-웹의 메소포타미아 
-http://info.cern.ch/
-웹 호스팅
-웹 서버
-
->  웹서버 운영하기
+> 웹의 역사
+인터넷과 웹은 다른 개념 </br>
+인터넷은 전체를 연결하는 연결망 </br>
+웹은 앱서비스나 다른 통신망이 들어가는 모든 서비스들을 인터넷이라고 볼 수 있습니다.</br>
+웹의 메소포타미아 </br>
+http://info.cern.ch/</br>
+웹 호스팅</br>
+웹 서버</br>
+> 웹서버 운영하기
 아파치, Nginx
 how to install apache http server os
