@@ -68,10 +68,11 @@ id는 하나 밖에 없는 특수한 경우 주로 사용합니다.!
 > 그리드
 
 float->flex->grid
-[canIuse_브라우저별_지원_사이트](https://caniuse.com/)
-[그리드_개념_잡기](https://css-tricks.com/snippets/css/complete-guide-grid/)
-[그리드_가든](http://cssgridgarden.com/)
-[CSS_Flex_Box](http://flexboxfroggy.com/)
+
+* [canIuse_브라우저별_지원_사이트](https://caniuse.com/)
+* [그리드_개념_잡기](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* [그리드_가든](http://cssgridgarden.com/)
+* [CSS_Flex_Box](http://flexboxfroggy.com/)
 
 그리도 곧 상용화 기술 75%나 지원 됨 !
 그리드 실습 좀 더 공부해봐야겠다.
@@ -83,5 +84,6 @@ float->flex->grid
 > CSS 코드의 재사용
 
 참고문헌
-[CSS_tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-[CSS_udacity_style_guide](https://udacity.github.io/frontend-nanodegree-styleguide/css.html)
+
+* [CSS_tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [CSS_udacity_style_guide](https://udacity.github.io/frontend-nanodegree-styleguide/css.html)
