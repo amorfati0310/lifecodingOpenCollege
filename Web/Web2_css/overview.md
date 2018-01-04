@@ -83,6 +83,11 @@ float->flex->grid
 
 > CSS 코드의 재사용
 
+재사용성!!!
+link
+외부파일로 불러오면 조금 더 느림 ,</br>
+but Web은 성능 대체로 좋은 편 믿자 + 캐슁 + 재사용성의 편의!!! 
+
 참고문헌
 
 * [CSS_tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
