@@ -17,7 +17,7 @@
 
 ### [HTML_Block_inLine_Element](ReadMe/blockAndInLine.md)
 
-### [html공부_Link](ReadMe/htmlStudy.md)
+### [html_css_공부_Link](ReadMe/htmlStudy.md)
 
 ### [Hexo로_기술블로그_만들기](ReadMe/hexoBlog.md)
 
