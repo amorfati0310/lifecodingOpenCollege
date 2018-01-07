@@ -17,3 +17,10 @@
 
 * [인프런_윤지수님_html강의](https://www.inflearn.com/course/html-css-%EA%B0%95%EC%A2%8C-codesquad/)
 * [유다시티_html강의](https://www.udacity.com/course/html-and-css-syntax--ud001)
+
+> 디자인 참고 사이트
+
+* [미디엄_무즈리](https://medium.muz.li/)
+* [어워즈](https://www.awwwards.com/)
+* [드리블](https://dribbble.com/)
+* [언스플래쉬](https://unsplash.com/)
