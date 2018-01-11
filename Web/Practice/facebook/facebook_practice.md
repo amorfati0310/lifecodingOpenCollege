@@ -25,4 +25,7 @@ CasCade Style Sheet , 라는 개념에 가장 어울리는 성질인데 상속�
 
 ## 진행하면서 배운 점
 
-커스텀 스타일을 하기 어렵다 폰트어썸, 편하지만, 그래도 icon이 있는 편이 훨씬 좋음! html, cSS 초보다 잘 ... 나도 계속 많이 만들어봐야겠다 
+커스텀 스타일을 하기 어렵다 폰트어썸, 편하지만, 그래도 icon이 있는 편이 훨씬 좋음! html, cSS 초보다 잘 ... 나도 계속 많이 만들어봐야겠다
+
+
+## [고정비율_CSS](https://www.sitepoint.com/maintain-image-aspect-ratios-responsive-web-design/)
