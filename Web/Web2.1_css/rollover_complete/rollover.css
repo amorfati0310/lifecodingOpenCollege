@@ -1,0 +1,94 @@
+/* base */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 200px;
+   
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+li {
+    list-style: none;
+}
+/* 컨텐츠 */
+h1 {
+    text-align: center;
+}
+.photo-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 750px; 
+    /* width: 100%; */
+    /* flex: 3;    */
+}
+.photo-item {
+    width: 33.3333%;
+     /* flex: 1; */
+     width: 250px;
+     height: 250px;
+     overflow: hidden;
+}
+
+.photo-item:nth-child(1) .photo {background-image: url('../images/1.jpg')}
+.photo-item:nth-child(2) .photo {background-image: url('../images/2.jpg')}
+.photo-item:nth-child(3) .photo {background-image: url('../images/3.jpg')}
+.photo-item:nth-child(4) .photo {background-image: url('../images/4.jpg')}
+.photo-item:nth-child(5) .photo {background-image: url('../images/5.jpg')}
+.photo-item:nth-child(6) .photo {background-image: url('../images/6.jpg')}
+.photo-item:nth-child(7) .photo {background-image: url('../images/7.jpg')}
+.photo-item:nth-child(8) .photo {background-image: url('../images/8.jpg')}
+.photo-item:nth-child(9) .photo {background-image: url('../images/9.jpg')}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.photo::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: all 2s ease-in-out;
+}
+.content {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+h3::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 5px;
+    background-color: aliceblue;
+    margin-top: 22px;
+}
+
+.rollover-wrapper {
+     transform: translateY(0);
+     transition: all 2s ease-in-out;
+}
+
+
+.photo-item:hover .rollover-wrapper {
+ transform: translateY(-50%);
+}
+.photo-item:hover .photo::after {
+    background-color: black;
+}

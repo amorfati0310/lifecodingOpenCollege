@@ -6,11 +6,11 @@
 
 > 오늘은 
 * 깃 사용 -> 깃헙에 첫 Repo 및 공부내용 올려보기 (30min exp)
-* FlexBox , Position (30min exp)
+* FlexBox , Position 개념 설명 및 적용하기(30min exp)
 쉬는 시간 10분
 * WebFont (20min)
-* 만들어보기 연습 (30min)
-
+* 만들어보기 연습 실습 RollOver (40min)
+* Facebook Header 실습 (30min)
 
 * 깃헙 사용법 간단히 
 Why? 
@@ -23,9 +23,6 @@ Why?
 깃은 버전관리 시스템, 리눅스 토발즈라는 리눅스 만든 천재 개발자가 만든 , 또 하나의 혁신적인 프로그램 이를 이용한 서비스로 대표적인 Github, 
 
 [Git_생활코딩](https://www.youtube.com/watch?v=hFJZwOfme6w&list=PLuHgQVnccGMA8iwZwrGyNXCGy2LAAsTXk)
-
-
-
 
 * FlexBox, display: flex에 대해서 알아봅시다.
 
@@ -46,8 +43,7 @@ slid.do-> slide 만들기 !
 [웹폰트_튜토리얼](http://wit.nts-corp.com/2017/02/13/4258)
 
 
-
-
+* 만들어보기 실습 RollOver
 
 
 
