@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="hi" onclick="alert(`hi`)">
+    <input type="text"  onchange="alert('changed')">
+    <input type="text" onkeydown="alert('key down')">
+    <input class="letters-check" 
+           type="text" 
+           onchange="lettersCheck()"
+           aria-multiline="5">
+    <!--<textarea class="multiline" col="40" row="5"  onchange="lettersCheck()"></textarea>-->
+    <p class="diplay-letters"></p>
+    <p class="diplay-letters-multiline"></p>
+    <script>
+        function lettersCheck(){
+            console.log('aaaa')
+            const lettersInput = document.querySelector(`.letters-check`)
+            console.log('lettersInput', lettersInput)
+            let letters = lettersInput.value;
+            letters = letters.trim();            
+            const letterCount = letters.length;
+           // console.log('타입', typeof letters)
+              console.log('letters', letters)
+            const lettersDisplay = document.querySelector('.diplay-letters');
+             console.log('lettersDisplay', lettersDisplay)
+            lettersDisplay.textContent = `글자수는 : ${letterCount}`
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- 
+https://stackoverflow.com/questions/10575086/regex-to-remove-all-whitescape-except-one-between-words
+
+
+-->
