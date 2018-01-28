@@ -3,7 +3,14 @@
 <head>
     <title>JavaScript label example</title>
     <style>
-        p {
+        .para.change {
+            color:brown;
+            background-color: red(20, 150, 200, 0.3);
+        }
+        .para.iceCream {
+           background-color: blue;
+        }
+        .para {
             font-family: 'helvetica neue', helvetica, sans-serif;
             letter-spacing: 1px;
             text-transform: uppercase;
@@ -17,25 +24,28 @@
             display: inline-block;
             cursor: pointer;
         }
-        .change {
-            background: rebeccapurple;
-            color:brown;
-        }
+       
     </style>
 </head>
 
 <body>
-    <p>Player 1: Chris</p>
+    <p class="para">Player 1: Chris</p>
+    <p>1</p>
+    <p st>2</p>
 
     <script>
-        var para = document.querySelector('p');
+        var para = document.querySelector('.para');
         para.addEventListener('click', updateName);
-
+           para.addEventListener('mouseover', changeStyle);
         function updateName() {
-            var name = prompt('Enter a new name');
-            para.textContent = 'Player 1: ' + name;
+            para.textContent = 'Player 1: '+ prompt('Enter a your favor Icecream ');
+            para.classList.remove('.iceCream')
             para.classList.add('change');
         }
+         function changeStyle(){ 
+                para.classList.remove('change')
+                para.classList.add('iceCream');
+            }
     </script>
 </body>
 
