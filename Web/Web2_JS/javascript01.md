@@ -2,6 +2,16 @@
 
 ## 01 HTML과 JS 만남 :D 
 
+## Javascript 란 무엇인가ㄴ
+
+Javascript 는 Brendan Eich 라는 분이 1995년에 달랑 10일 만에 만든 언어다.
+크로스-플랫폼  [객체지향언어](http://blog.daum.net/istae0430/194)다.
+일반적인 용도는 웹 페이지에 기능을 더해 HTML 를 동적으로 만드는 것이다.
+현재는 클라이언트와 서버 양쪽 모두에서 범용적으로 사용되고 있다.
+
+인터프리터 언어 동시통역, 바로바로 처리 
+컴파일 언어 번역 쭈욱 -> 슥슥 , 속도 빠르나 컴파일 시간
+
 1. JS는 동적
 `document.wrtie 문서에 출력할 때 쓴다.`
 
@@ -148,3 +158,60 @@ Ref [Entity](https://www.w3schools.com/html/html_entities.asp)
 
 Document.querySelectorAll
 유사배열 NodeList 
+
+* 함수 
+
+일련의 명령문 모음  -> 반복되는 것 or 같은 논리 재사용성으로 찍어낼 수 있는 것들 :D 
+함수로 고우~~ 
+엔티티 코드 ~~!!:D 
+
+* 함수의 활용
+
+일련의 명령문 모음  -> 반복되는 것 or 같은 논리 재사용성으로 찍어낼 수 있는 것들 :D 
+함수로 고우~~ 
+엔티티 코드 ~~!!:D 
+
+* 객체 
+
+어려움 객체지향 프로그래밍,
+객체<-> 상태, 행동(함수) n
+Property, Method
+자바스크립트는 객체다 
+나도 객체 우선은 ... 공부 더 해야겠네요 
+
+생활코딩 -> 연관된 함수 및 변수들을 그룹핑해서 정리하기 위해서 객체:D 
+
+배열은 순서대로 저장 
+객체 
+객체 기본 사용 
+
+```
+  <script>
+ +      var coworkers = {
+ +        "programmer":"egoing",
+ +        "designer":"leezche"
+ +      };
+ +      document.write("programmer : "+coworkers.programmer+"<br>");
+ +      document.write("designer : "+coworkers.designer+"<br>");
+ +      coworkers.bookkeeper = "duru";
+ +      document.write("bookkeeper : "+coworkers.bookkeeper+"<br>");
+ +      coworkers["data scientist"] = "taeho";
+ +      document.write("data scientist : "+coworkers["data scientist"]+"<br>");
+ +    </script>
+```
+
+객체 반복 For in (key in your object)
+
+프로퍼티와 메소드 
+
+* 파일쪼개서 정리 정돈 하기 
+
+* JQuery CDN ContentDeliveryNetwork 
+
+* ui and api
+user interface
+api application programming interface
+
+사용설명서 
+
+

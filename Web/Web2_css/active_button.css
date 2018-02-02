@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    text-align: center;
+}
+.title:hover {
+    color: #fff;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+.buttons-box {
+    display: flex;
+}
+.buttons-box li {
+    list-style: none;
+}
+button {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    font-size: 16px;
+    color: #00468c;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+button::before {
+    content: '';
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+.button-fade::before {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 100%;
+      background: #00468c;
+}
+.button-fade {
+    border: 5px solid #00468c;
+}
+.button-fade:hover::before,
+.button-fade:focus::before {
+    right: 0;
+}
+.button-fade:hover,
+.button-fade:focus {
+    color: #fff;
+}
+
+.button-line::before,
+.button-split-line::before {
+    bottom: 0px;
+    left: 0;
+    right: 100%;
+    height: 3px;
+    background: #00468c;
+}
+
+.button-line:hover::before,
+.button-line:focus::before {
+    right: 0;
+}
+
+.button-split-line::before {
+     left: 50%;
+     right: 50%;
+}
+.button-split-line:hover::before,
+.button-split-line:focus::before {
+    left: 0;
+    right: 0;
+}
