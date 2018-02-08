@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .lottoBox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .lottoBall{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: #222; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+            color: #f59f00;
+            font-size: 24px;
+        }
+        .displayBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #f59f00;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="lottery-box">
+        <h1>로또 번호 추첨</h1>
+        <input type="button" class="lotto-btn" value="로또 번호생성"/>
+        <div class="displayBox">
+
+        </div>
+    </div>
+
+
+
+    <script>
+     const displayBox = document.querySelector('.displayBox');
+     const lottoeryBtn = document.querySelector('.lotto-btn');
+     let lottoNumberList = [...Array(45).keys()];
+     console.log(lottoNumberList);
+    function shuffle(a) {
+        for (let i = a.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            //a[0]을 제외하고 나머지를 돈다
+            // 난수를 생성하는데 i는 마지막 인덱스 부터 1까지니까 
+            // (2~index)*(0~1)를 랜덤으로 돌린다  index~0-> index-1~0
+            // floor round ceil 버림 반올림 올림
+            // es6 [a[2],a[3]] = [a[3],a[2]] switch
+            // 랜덤으로 뽑힌 친구를 switch , 
+            [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+    }
+    const getLottoNumber = function(lottoNumberList){
+        let shuffleNumber = shuffle(lottoNumberList);
+        let sliceShuffleNumber = shuffleNumber.slice(0,6);
+        let getNumber = sliceShuffleNumber.map(function(item){
+            return item+1;
+        })
+        return getNumber;        
+    }
+     lottoeryBtn.addEventListener('click', function(){
+        let lottoBalls = getLottoNumber(lottoNumberList).map(function (item) {
+             return `<div class="lottoBall">${item}</div>`
+         })
+         console.log(lottoBalls);
+         let strLottoBalls = lottoBalls.join('');
+         console.log(strLottoBalls)
+         strLottoBalls = `<div class="lottoBox">${strLottoBalls}</div>`;
+         displayBox.insertAdjacentHTML('beforeend', strLottoBalls);
+     })
+    
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+   // https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array 
+    </script>
+</body>
+</html>

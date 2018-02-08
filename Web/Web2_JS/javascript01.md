@@ -215,3 +215,4 @@ api application programming interface
 사용설명서 
 
 
+[기본개념_공부](https://slides.com/chany/deck-3/live)

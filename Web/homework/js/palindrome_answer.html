@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    Palindrome()
+</body>
+<script>
+    function isPalindrome(text){
+        text = text.toLowerCase();
+        text = text.trim().replace(/(\s*)/g, "");
+        let reverse = text.split("").reverse().join("").replace(/(\s*)/g, "");;
+        console.log(text)
+        console.log(reverse)
+        return text===reverse;
+    }
+    console.log(isPalindrome('         No lemon, no melon        '))
+</script>
+</html>
